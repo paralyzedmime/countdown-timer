@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.stars {
+    position: absolute;
+}
+
+.hills {
+    position: absolute;
+    bottom: 0;
+}
+
+body {
+    font-family: "Red Hat Text", sans-serif;
+    background-color: hsl(235, 16%, 14%);
+}
+
+/*Container*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+/*.countdown {
+    text-align: center;
+}*/
+
+/* socials */
+.socials {
+    position: absolute;
+    bottom: 30px;
+    z-index: 999; /*this displays class above other class that is also set to absolute*/
+    left:50%;
+    transform: translateX(-50%);/*pushes icons further left to center on the page*/
+}
+
+.socials ul {
+    display: flex;
+}
+
+.socials ul li {
+    margin: 0 20px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1440px) {
+    .stars img, 
+    .hills img {
+        width:1920px;
+    } 
+}
