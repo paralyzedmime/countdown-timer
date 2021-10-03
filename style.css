@@ -35,9 +35,45 @@ body {
     min-height: 70vh;
 }
 
-/*.countdown {
+.container h1 {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+     
+}
+
+/*Countdown*/
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     text-align: center;
-}*/
+}
+
+.countdown div {
+    margin: 10px;
+}
+
+.countdown p {
+    padding: 20px;
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    font-size: 46px;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.countdown h3 {
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
 
 /* socials */
 .socials {
@@ -59,6 +95,7 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color: white;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
